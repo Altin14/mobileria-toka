@@ -1,0 +1,1791 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Signika Negative", sans-serif;
+}
+
+body {
+  font-family: sans-serif;
+  overflow-x: hidden;
+  /* background-image: url(Photos/snow.gif); */
+}
+
+p {
+  line-height: normal;
+}
+
+/* Ballina 1(Header) */
+
+header {
+  width: 100%;
+  height: 100%;
+  background-color: #ededed;
+  padding: 0 100px;
+}
+
+header,
+#ikonat-koka a {
+  float: left;
+  padding: 13px 8px 10px 40px;
+}
+
+header,
+.kontakti-koka {
+  float: right;
+  padding-right: 40px;
+}
+
+header,
+.konakti-koka,
+ul li,
+a {
+  display: inline-block;
+  list-style: none;
+  text-decoration: none;
+  font-size: 13px;
+  padding: 0 5px 60px 10px;
+  height: 30px;
+}
+
+.butoni-koka:hover {
+  padding: 10px;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: 1.5s ease;
+  color: white;
+  background-color: black;
+}
+
+/* Ballina 2(Header) */
+
+nav {
+  width: 100%;
+  height: auto;
+  padding: 0 100px;
+  line-height: 75px;
+}
+
+nav,
+.logo-ballina {
+  float: left;
+  padding: 0 8px 10px 40px;
+  height: 30px;
+}
+
+.logo-ballina:hover {
+  transform: scale(1.2);
+  cursor: pointer;
+  transition: transform 1.2s ease;
+}
+
+nav,
+.ballina,
+ol {
+  float: right;
+  padding-right: 84px;
+}
+
+nav,
+.ballina,
+ol li,
+a {
+  display: inline-block;
+  list-style: none;
+  text-decoration: none;
+  font-size: 13px;
+  padding: 0 23px 60px 35px;
+  height: 30px;
+  color: black;
+}
+
+.ballina ol li a.active {
+  background-color: gainsboro;
+  padding: 0px 30px 70px;
+  border-radius: 60px;
+}
+
+.butoni-ballina {
+  padding-right: 30px;
+  margin-bottom: 50px;
+}
+
+nav .ballina ol li a:hover,
+.butoni-ballina:hover {
+  background-color: lightgray;
+  border-radius: 60px;
+  cursor: pointer;
+  transition: 1.5s;
+}
+
+/* Permbajtja */
+
+.permbajtja {
+  background-image: url(Photos/mobile-permbajtja.png);
+  background-size: cover;
+
+  width: 100%;
+  height: 500px;
+  margin-left: 10px;
+  padding: 150px 360px;
+}
+
+.permbajtja .mobileria-toka {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 600px;
+  padding: 10px;
+  font-size: 17px;
+  background-color: #ffffff10;
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(12px);
+}
+
+.permbajtja .mobileria-toka:hover {
+  border-radius: 600px;
+  background-color: #ededed;
+  color: black;
+  transition: 2s ease;
+  cursor: pointer;
+}
+
+.permbajtja .atraktive {
+  width: 520px;
+  margin: 10px 50px;
+  padding: 15px;
+  background-color: #ffffff10;
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+}
+
+.permbajtja .atraktive:hover {
+  border-radius: 600px;
+  background-color: #ededed;
+  transition: 2s ease;
+  cursor: pointer;
+}
+
+.kolonat {
+  display: flex;
+  margin: -60px 150px;
+  height: 190px;
+  line-height: normal;
+}
+
+.kolona-permbajtja-1 {
+  background-color: #ededed;
+  text-align: center;
+  filter: blur(2px);
+  padding: 30px;
+  margin-right: 30px;
+}
+
+.kolona-permbajtja-2 {
+  background-color: #ededed;
+  text-align: center;
+  filter: blur(2px);
+  padding: 30px;
+  margin-right: 30px;
+}
+
+.kolona-permbajtja-3 {
+  background-color: #ededed;
+  text-align: center;
+  filter: blur(2px);
+  padding: 30px;
+}
+
+.kolona-permbajtja-1:hover,
+.kolona-permbajtja-2:hover,
+.kolona-permbajtja-3:hover {
+  background-color: lightgray;
+  border-radius: 30px;
+  transform: scale(1.1);
+  transition: 1.2s ease;
+  filter: none;
+  cursor: pointer;
+}
+
+/*  Faqja 2  */
+
+.faqja-2 {
+  display: flex;
+}
+
+.teksti-faqja-2 {
+  width: 800px;
+  margin: 40px;
+  padding: 30px;
+  color: black;
+  text-align: center;
+}
+
+.faqja-2 img {
+  margin: 40px;
+  border-radius: 60px;
+}
+
+.teksti-faqja-2 button {
+  margin: 20px;
+  padding: 10px;
+  background-color: gainsboro;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+/* Sherbimet */
+
+#titulli-sherbimet {
+  margin-left: 390px;
+  width: 500px;
+  padding: 15px;
+  text-align: center;
+  border-radius: 20px;
+  background-color: #ededed;
+}
+
+.sherbimet {
+  column-count: 3;
+  background-color: #f2efed;
+  height: auto;
+  border-radius: 20px;
+  margin: 10px;
+}
+
+.kuzhina {
+  width: 390px;
+  text-align: center;
+  display: flex;
+}
+
+.teksti-kuzhina {
+  padding-top: 32px;
+  padding-right: 11px;
+}
+
+.kuzhina img {
+  margin: 20px;
+  padding-right: 5px;
+  transition: 1.2s ease;
+}
+
+.kuzhina img:hover {
+  transform: scale(1.1);
+  transition: 1.2s ease;
+  cursor: pointer;
+}
+
+.dhoma-gjumi {
+  width: 390px;
+  text-align: center;
+  display: flex;
+}
+
+.teksti-dhoma-gjumi {
+  padding-top: 28px;
+  padding-right: 11px;
+}
+
+.dhoma-gjumi img {
+  margin: 20px;
+  padding-right: 5px;
+}
+
+.dhoma-gjumi img:hover {
+  transform: scale(1.2);
+  transition: 1.2s ease;
+  cursor: pointer;
+}
+
+.tavolin-buke {
+  width: 390px;
+  text-align: center;
+  display: flex;
+}
+
+.teksti-tavolin-buke {
+  padding-top: 28px;
+  padding-right: 11px;
+}
+
+.tavolin-buke img {
+  margin: 20px;
+  padding-right: 5px;
+  transition: 1.2s ease;
+}
+
+.tavolin-buke img:hover {
+  transform: scale(1.1);
+  transition: 1.2s ease;
+  cursor: pointer;
+}
+
+.komod {
+  width: 390px;
+  text-align: center;
+  display: flex;
+}
+
+.teksti-komod {
+  padding-top: 32px;
+  padding-right: 11px;
+}
+
+.komod img {
+  margin: 20px;
+  padding-right: 5px;
+  transition: 1.2s ease;
+}
+
+.komod img:hover {
+  transform: scale(1.1);
+  transition: 1.2s ease;
+  cursor: pointer;
+}
+
+.paradhom {
+  width: 390px;
+  text-align: center;
+  display: flex;
+}
+
+.teksti-paradhom {
+  padding-top: 28px;
+  padding-right: 11px;
+}
+
+.paradhom img {
+  margin: 20px;
+  padding-right: 5px;
+}
+
+.paradhom img:hover {
+  transform: scale(1.2);
+  transition: 1.2s ease;
+  cursor: pointer;
+}
+
+.pasqyr {
+  width: 390px;
+  margin: 10px;
+  text-align: center;
+  display: flex;
+}
+
+.teksti-pasqyr {
+  padding-top: 28px;
+  padding-right: 11px;
+}
+
+.pasqyr img {
+  margin: 20px;
+  padding-right: 5px;
+}
+
+.pasqyr img:hover {
+  transform: scale(1.2);
+  transition: 1.2s ease;
+  cursor: pointer;
+}
+
+.banjo {
+  width: 390px;
+  text-align: center;
+  display: flex;
+}
+
+.teksti-banjo {
+  padding-top: 32px;
+  padding-right: 11px;
+}
+
+.banjo img {
+  margin: 20px;
+  padding-right: 5px;
+  transition: 1.2s ease;
+}
+
+.banjo img:hover {
+  transform: scale(1.1);
+  transition: 1.2s ease;
+  cursor: pointer;
+}
+
+.divan {
+  width: 390px;
+  text-align: center;
+  display: flex;
+}
+
+.teksti-divan {
+  padding-top: 28px;
+  padding-right: 11px;
+}
+
+.divan img {
+  margin: 20px;
+  padding-right: 5px;
+}
+
+.divan img:hover {
+  transform: scale(1.2);
+  transition: 1.2s ease;
+  cursor: pointer;
+}
+
+.tavolin-kafe {
+  width: 390px;
+  text-align: center;
+  display: flex;
+}
+
+.teksti-tavolin-kafe {
+  padding-top: 28px;
+  padding-right: 11px;
+}
+
+.tavolin-kafe img {
+  margin: 20px;
+  padding-right: 5px;
+}
+
+.tavolin-kafe img:hover {
+  transform: scale(1.2);
+  transition: 1.2s ease;
+  cursor: pointer;
+}
+
+/* Puntoret */
+
+#titulli-puntoret {
+  margin-left: 390px;
+  width: 500px;
+  padding: 15px;
+  text-align: center;
+  border-radius: 20px;
+  background-color: #ededed;
+}
+
+.puntoret {
+  display: flex;
+  margin-left: 60px;
+}
+
+.zeneli {
+  width: 371px;
+  margin-left: 20px;
+  padding: 10px 10px 60px;
+  background-color: ;
+  background-color: #ededed;
+  border-radius: 30px;
+}
+
+.zeneli img:hover {
+  transform: scale(1.2);
+  transition: 1.2s ease;
+  cursor: pointer;
+}
+
+.teksti-zeneli {
+  padding: 30px;
+}
+
+.zeneli button {
+  padding: 6px;
+  border-radius: 20px;
+  background-color: gainsboro;
+  cursor: pointer;
+}
+
+.avdiu {
+  width: 371px;
+  margin-left: 20px;
+  padding-left: 10px;
+  padding-top: 10px;
+  background-color: ;
+  background-color: #ededed;
+  border-radius: 30px;
+}
+
+.avdiu img:hover {
+  transform: scale(1.2);
+  transition: 1.2s ease;
+  cursor: pointer;
+}
+
+.teksti-avdiu {
+  padding: 30px;
+}
+
+.avdiu button {
+  padding: 6px;
+  border-radius: 20px;
+  background-color: gainsboro;
+  cursor: pointer;
+}
+
+.hasani {
+  width: 371px;
+  margin-left: 20px;
+  padding-left: 10px;
+  padding-top: 10px;
+  background-color: ;
+  background-color: #ededed;
+  border-radius: 30px;
+}
+
+.hasani img:hover {
+  transform: scale(1.2);
+  transition: 1.2s ease;
+  cursor: pointer;
+}
+
+.teksti-hasani {
+  padding: 30px;
+}
+
+.hasani button {
+  padding: 6px;
+  border-radius: 20px;
+  background-color: gainsboro;
+  cursor: pointer;
+}
+
+/* Foto-opacity*/
+
+.tejdukshmeria {
+  background-image: url(Photos/living%20room.jpg);
+  background-size: cover;
+  display: flex;
+  border-radius: 20px;
+  width: 100%;
+  height: 213px;
+}
+
+.kolona-tejdukshmeria {
+  font-weight: 800;
+  margin-left: 39px;
+  padding-top: 60px;
+  padding-left: 70px;
+  text-align: center;
+}
+
+/* Kerkimi mobileve */
+
+.titulli-kerko {
+  width: 440px;
+  margin-left: 155px;
+  background-color: lightgray;
+  text-align: center;
+  border-radius: 30px;
+  padding: 10px;
+}
+
+.kerko {
+  width: 850px;
+  background-color: ;
+  padding: 20px;
+  margin-left: 400px;
+}
+
+.kerko h1 {
+  font-size: 35px;
+  line-height: 2;
+  color: black;
+}
+
+form input {
+  width: 400px;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  outline: none;
+  font-size: 15px;
+  border-bottom: 2px solid brown;
+  margin-bottom: 15px;
+}
+
+.btn {
+  font-size: 15px;
+  text-decoration: none;
+  color: black;
+  background-color: gainsboro;
+  padding: 30px;
+  margin: 3px;
+  border-radius: 68px;
+  transition: 1s ease;
+}
+
+.btn:hover {
+  transition: 1s ease;
+  background-color: gray;
+  color: white;
+}
+
+.active {
+  background-color: gray;
+  padding: 30px;
+  color: white;
+  border-radius: 30px;
+}
+
+#produktis {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(270px, 25px));
+  column-gap: 38px;
+  grid-row-gap: 15px;
+  padding: 15px 0;
+}
+
+.produkti-detaje {
+  width: 140px;
+  padding: 10px;
+  margin-top: -90px;
+  margin-left: 191px;
+  margin-bottom: 100px;
+  background-color: lightgray;
+  border-radius: 30px;
+  text-align: center;
+  position: absolute;
+}
+
+.produkti-detaje h2 {
+  font-size: 20px;
+  color: black;
+}
+
+.produkti-detaje span {
+  text-decoration: line-through;
+  color: saddlebrown;
+  font-weight: normal;
+}
+
+.produkti,
+.kuzhina img {
+  position: relative;
+  border-radius: 30px;
+  aspect-ratio: 1/1;
+}
+
+.produkti,
+.komod img {
+  position: relative;
+  border-radius: 30px;
+  aspect-ratio: 1/1;
+}
+
+.produkti,
+.dhoma-gjumi .produkti-detaje {
+  margin-left: 196px;
+}
+
+.produkti,
+.dhoma-gjumi img {
+  position: relative;
+  margin-left: 30px;
+  border-radius: 30px;
+  aspect-ratio: 1/1;
+}
+
+.produkti,
+.tavolin-buke img {
+  position: relative;
+
+  border-radius: 30px;
+  aspect-ratio: 1/1;
+}
+
+.produkti .tavolin-buke,
+.produkti-detaje {
+  margin-left: 195px;
+}
+
+.produkti,
+.banjo img {
+  position: relative;
+  border-radius: 30px;
+  aspect-ratio: 1/1;
+}
+
+.produkti .banjo,
+.produkti-detaje {
+  margin-left: 191px;
+}
+
+/* Mobilet tona */
+
+#titulli-mobilet {
+  margin-left: 390px;
+  width: 500px;
+  padding: 10px;
+  text-align: center;
+  border-radius: 20px;
+  background-color: #ededed;
+}
+
+.mobilet {
+  display: flex;
+  margin-left: 80px;
+}
+
+.kuzhina-1 {
+  margin-left: 30px;
+  width: 350px;
+  height: 250px;
+  position: relative;
+}
+
+.kuzhina-1 .foto-kuzhina-1,
+.kuzhina-1 .teksti-kuzhina-1 {
+  position: absolute;
+  width: 330px;
+  height: 220px;
+  background-color: white;
+  backface-visibility: hidden;
+  cursor: pointer;
+  border-radius: 20px;
+  box-shadow: 0 5px 30px rgba(163, 61, 21, 0.2),
+    0 5px 30px rgba(115, 55, 212, 0.2);
+  transition: transform 0.7s;
+}
+
+.kuzhina-1 .teksti-kuzhina-1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  transform: perspective(800px) rotateX(-180deg);
+  background-color: lightgray;
+}
+
+.kuzhina-1 .teksti-kuzhina-1 p {
+  margin: 10px 20px;
+  text-align: center;
+  font-size: 15px;
+}
+
+.kuzhina-1 .foto-kuzhina-1 img {
+  width: 330px;
+  height: 220px;
+  border-radius: 20px;
+  position: relative;
+}
+
+.kuzhina-1:hover .foto-kuzhina-1 {
+  transform: perspective(800px) rotateX(180deg);
+}
+
+.kuzhina-1:hover .teksti-kuzhina-1 {
+  border-radius: 20px;
+  transform: perspective(800px) rotateX(0);
+}
+
+.dhoma-gjumi-1 {
+  margin-left: 30px;
+  width: 350px;
+  height: 250px;
+  position: relative;
+}
+
+.dhoma-gjumi-1 .foto-dhoma-gjumi-1,
+.dhoma-gjumi-1 .teksti-dhoma-gjumi-1 {
+  position: absolute;
+  width: 310px;
+  height: 230px;
+  background-color: white;
+  backface-visibility: hidden;
+  cursor: pointer;
+  border-radius: 20px;
+  box-shadow: 0 5px 30px rgba(163, 61, 21, 0.2),
+    0 5px 30px rgba(115, 55, 212, 0.2);
+  transition: transform 0.7s;
+}
+
+.dhoma-gjumi-1 .teksti-dhoma-gjumi-1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  transform: perspective(800px) rotateX(-180deg);
+  background-color: lightgray;
+}
+
+.dhoma-gjumi-1 .teksti-dhoma-gjumi-1 p {
+  margin: 10px 20px;
+  text-align: center;
+  font-size: 15px;
+}
+
+.dhoma-gjumi-1 .foto-dhoma-gjumi-1 img {
+  width: 310px;
+  height: 230px;
+  border-radius: 20px;
+  position: relative;
+}
+
+.dhoma-gjumi-1:hover .foto-dhoma-gjumi-1 {
+  transform: perspective(800px) rotateX(180deg);
+}
+
+.dhoma-gjumi-1:hover .teksti-dhoma-gjumi-1 {
+  border-radius: 20px;
+  transform: perspective(800px) rotateX(0);
+}
+
+.tavolin-buke-1 {
+  margin-left: 30px;
+  width: 350px;
+  height: 250px;
+  position: relative;
+}
+
+.tavolin-buke-1 .foto-tavolin-buke-1,
+.tavolin-buke-1 .teksti-tavolin-buke-1 {
+  position: absolute;
+  width: 330px;
+  height: 220px;
+  background-color: white;
+  backface-visibility: hidden;
+  cursor: pointer;
+  border-radius: 20px;
+  box-shadow: 0 5px 30px rgba(163, 61, 21, 0.2),
+    0 5px 30px rgba(115, 55, 212, 0.2);
+  transition: transform 0.7s;
+}
+
+.tavolin-buke-1 .teksti-tavolin-buke-1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  transform: perspective(800px) rotateX(-180deg);
+  background-color: lightgray;
+}
+
+.tavolin-buke-1 .teksti-tavolin-buke-1 p {
+  margin: 10px 20px;
+  text-align: center;
+  font-size: 15px;
+}
+
+.tavolin-buke-1 .foto-tavolin-buke-1 img {
+  width: 330px;
+  height: 220px;
+  border-radius: 20px;
+  position: relative;
+}
+
+.tavolin-buke-1:hover .foto-tavolin-buke-1 {
+  transform: perspective(800px) rotateX(180deg);
+}
+
+.tavolin-buke-1:hover .teksti-tavolin-buke-1 {
+  border-radius: 20px;
+  transform: perspective(800px) rotateX(0);
+}
+
+.komod-1 {
+  margin-left: 30px;
+  width: 350px;
+  height: 250px;
+  position: relative;
+}
+
+.komod-1 .foto-komod-1,
+.komod-1 .teksti-komod-1 {
+  position: absolute;
+  width: 330px;
+  height: 220px;
+  background-color: white;
+  backface-visibility: hidden;
+  cursor: pointer;
+  border-radius: 20px;
+  box-shadow: 0 5px 30px rgba(163, 61, 21, 0.2),
+    0 5px 30px rgba(115, 55, 212, 0.2);
+  transition: transform 0.7s;
+}
+
+.komod-1 .teksti-komod-1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  transform: perspective(800px) rotateX(-180deg);
+  background-color: lightgray;
+}
+
+.komod-1 .teksti-komod-1 p {
+  margin: 10px 20px;
+  text-align: center;
+  font-size: 15px;
+}
+
+.komod-1 .foto-komod-1 img {
+  width: 330px;
+  height: 220px;
+  border-radius: 20px;
+  position: relative;
+}
+
+.komod-1:hover .foto-komod-1 {
+  transform: perspective(800px) rotateX(180deg);
+}
+
+.komod-1:hover .teksti-komod-1 {
+  border-radius: 20px;
+  transform: perspective(800px) rotateX(0);
+}
+
+.banjo-1 {
+  margin-left: 30px;
+  width: 350px;
+  height: 250px;
+  position: relative;
+}
+
+.banjo-1 .foto-banjo-1,
+.banjo-1 .teksti-banjo-1 {
+  position: absolute;
+  width: 330px;
+  height: 220px;
+  background-color: white;
+  backface-visibility: hidden;
+  cursor: pointer;
+  border-radius: 20px;
+  box-shadow: 0 5px 30px rgba(163, 61, 21, 0.2),
+    0 5px 30px rgba(115, 55, 212, 0.2);
+  transition: transform 0.7s;
+}
+
+.banjo-1 .teksti-banjo-1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  transform: perspective(800px) rotateX(-180deg);
+  background-color: lightgray;
+}
+
+.banjo-1 .teksti-banjo-1 p {
+  margin: 10px 20px;
+  text-align: center;
+  font-size: 15px;
+}
+
+.banjo-1 .foto-banjo-1 img {
+  width: 330px;
+  height: 220px;
+  border-radius: 20px;
+  position: relative;
+}
+
+.banjo-1:hover .foto-banjo-1 {
+  transform: perspective(800px) rotateX(180deg);
+}
+
+.banjo-1:hover .teksti-banjo-1 {
+  border-radius: 20px;
+  transform: perspective(800px) rotateX(0);
+}
+
+.divan-1 {
+  margin-left: 30px;
+  width: 350px;
+  height: 250px;
+  position: relative;
+}
+
+.divan-1 .foto-divan-1,
+.divan-1 .teksti-divan-1 {
+  position: absolute;
+  width: 330px;
+  height: 220px;
+  background-color: white;
+  backface-visibility: hidden;
+  cursor: pointer;
+  border-radius: 20px;
+  box-shadow: 0 5px 30px rgba(163, 61, 21, 0.2),
+    0 5px 30px rgba(115, 55, 212, 0.2);
+  transition: transform 0.7s;
+}
+
+.divan-1 .teksti-divan-1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  transform: perspective(800px) rotateX(-180deg);
+  background-color: lightgray;
+}
+
+.divan-1 .teksti-divan-1 p {
+  margin: 10px 20px;
+  text-align: center;
+  font-size: 15px;
+}
+
+.divan-1 .foto-divan-1 img {
+  width: 330px;
+  height: 220px;
+  border-radius: 20px;
+  position: relative;
+}
+
+.divan-1:hover .foto-divan-1 {
+  transform: perspective(800px) rotateX(180deg);
+}
+
+.divan-1:hover .teksti-divan-1 {
+  border-radius: 20px;
+  transform: perspective(800px) rotateX(0);
+}
+
+hr {
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+/* Zbritje */
+
+#titulli-zbritjet {
+  margin-left: 390px;
+  width: 500px;
+  padding: 10px;
+  text-align: center;
+  border-radius: 20px;
+  background-color: #ededed;
+}
+
+.zbritje {
+  display: flex;
+}
+
+.sallon {
+  width: 400px;
+  height: 500px;
+  margin-left: 30px;
+}
+
+.foto-sallon img {
+  margin-left: 5px;
+  width: 370px;
+  height: 250px;
+  border-radius: 100px;
+}
+
+.foto-sallon img:hover {
+  transform: scale(1.2);
+  transition: 1.2s ease;
+  border-radius: 100px;
+  cursor: pointer;
+}
+
+.teksti-sallon {
+  margin: -10px -10px;
+  width: 400px;
+  height: 310px;
+  padding: 30px;
+  background-color: #ededed;
+  border-radius: 0 0 100px 100px;
+}
+
+.teksti-sallon button {
+  padding: 10px;
+  border-radius: 20px;
+  background-color: #c6a385;
+  margin-left: 100px;
+  margin-top: 10px;
+  cursor: pointer;
+}
+
+.ballkon {
+  width: 400px;
+  height: 500px;
+  margin-left: 50px;
+}
+
+.foto-ballkon img {
+  margin-left: 5px;
+  width: 370px;
+  height: 250px;
+  border-radius: 100px;
+}
+
+.foto-ballkon img:hover {
+  transform: scale(1.2);
+  transition: 1.2s ease;
+  border-radius: 100px;
+  cursor: pointer;
+}
+
+.teksti-ballkon {
+  margin: -10px -10px;
+  width: 400px;
+  height: 310px;
+  padding: 30px;
+  background-color: #ededed;
+  border-radius: 0 0 100px 100px;
+}
+
+.teksti-ballkon button {
+  padding: 10px;
+  border-radius: 20px;
+  background-color: #c6a385;
+  margin-left: 100px;
+  margin-top: 10px;
+  cursor: pointer;
+}
+
+.dhoma {
+  width: 400px;
+  height: 500px;
+  margin-left: 50px;
+}
+
+.foto-dhoma img {
+  margin-left: 5px;
+  width: 370px;
+  height: 250px;
+  border-radius: 100px;
+}
+
+.foto-dhoma img:hover {
+  transform: scale(1.2);
+  transition: 1.2s ease;
+  border-radius: 100px;
+  cursor: pointer;
+}
+
+.teksti-dhoma {
+  margin: -10px -10px;
+  width: 400px;
+  height: 310px;
+  padding: 30px;
+  background-color: #ededed;
+  border-radius: 0 0 100px 100px;
+}
+
+.teksti-dhoma button {
+  padding: 10px;
+  border-radius: 20px;
+  background-color: #c6a385;
+  margin-left: 100px;
+  margin-top: 10px;
+  cursor: pointer;
+}
+
+/* Slider */
+
+main {
+  background-color: white;
+  padding: 25px 0;
+}
+
+.produktet-levizese {
+  max-width: 1000px;
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+}
+
+.shigjeta {
+  width: 100px;
+  margin: 0 15px;
+}
+
+section {
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-wrap: nowrap;
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+}
+
+section .korniza-produkti {
+  flex: 0 0 auto;
+  object-fit: cover;
+  cursor: pointer;
+  margin: 5px;
+  overflow: hidden;
+  transform: scale(0.95);
+  transition: all 0.3s;
+}
+
+section .korniza-produkti:hover {
+  transform: scale(1);
+}
+
+.korniza-produkti img {
+  max-width: 300px;
+  border-radius: 80px;
+  position: relative;
+  aspect-ratio: 1/1;
+}
+
+.korniza-produkti .produkti-detaje {
+  width: 150px;
+  height: 80px;
+  text-align: center;
+  border-radius: 40px;
+  margin-left: 100px;
+  margin-top: -85px;
+}
+
+.shigjeta {
+  width: 60px;
+  height: 60px;
+  margin-top: 130px;
+  cursor: pointer;
+}
+
+section::-webkit-scrollbar {
+  height: 6px;
+  width: 10px;
+  border-radius: 10px;
+  background-color: lightgray;
+}
+
+section::-webkit-scrollbar-thumb {
+  background-color: burlywood;
+  outline: 1px solid burlywood;
+  border-radius: 10px;
+}
+
+/* Koha reale */
+
+.permbajtja-koha {
+  background-color: white;
+  width: 300px;
+  text-align: center;
+  color: black;
+  border-radius: 60px;
+  padding: 10px;
+  margin-left: 900px;
+  margin-top: -70px;
+  font-size: 35px;
+  font-weight: bold;
+}
+
+#sahati {
+  width: 94px;
+  margin-left: 835px;
+}
+
+/* Video */
+
+.titulli-video {
+  margin-left: 390px;
+  width: 500px;
+  padding: 10px;
+  text-align: center;
+  border-radius: 20px;
+  background-color: gainsboro;
+}
+
+.video {
+  display: flex;
+  margin-left: 30px;
+}
+
+.titulli-video {
+  background-color: #ededed;
+}
+
+.foto-video {
+  background-image: url(Photos/foto-video.png);
+  background-size: cover;
+  width: 1320px;
+  height: 600px;
+  padding-top: 90px;
+}
+
+.teksti-video {
+  margin-left: 40px;
+  margin-top: 70px;
+  width: 500px;
+  height: 200px;
+  padding: 20px;
+  border-radius: 100px;
+  background-color: #ffffff10;
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(12px);
+  text-align: center;
+}
+
+/* Blej Online */
+
+.foto-forma-aplikuse {
+  background-image: url(Photos/mobile-ii.jpg);
+  background-size: cover;
+  width: 1026px;
+  height: 600px;
+  margin-left: 60px;
+  border-radius: 400px;
+  margin-left: 175px;
+}
+
+.forma-aplikuse {
+  width: 300px;
+  text-align: center;
+  margin: -370px 580px;
+}
+
+.blej {
+  width: 450px;
+  height: 400px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: lightgray;
+  border-radius: 100px;
+  text-align: center;
+}
+
+.blej h1 {
+  text-align: center;
+  color: black;
+  padding-top: 40px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+
+.blej input[type="text"],
+.blej input[type="password"] {
+  display: block;
+  height: 45px;
+  width: 260px;
+  text-align: center;
+  margin: 23px auto;
+  border: 2px solid gray;
+  border-radius: 25px;
+  transition: width 0.25s;
+  outline: none;
+  background: none;
+  color: black;
+  font-weight: bold;
+}
+
+.blej input[type="text"]:focus,
+.blej input[type="password"]:focus {
+  width: 350px;
+  transition: width 0.25s;
+  border: 3px solid #ededed;
+}
+
+.mbushe {
+  position: relative;
+  margin-bottom: 15px;
+}
+
+.mbushe:hover {
+  filter: none;
+  transition: 0.5s ease;
+}
+
+.mbushe label::before {
+  content: attr(title);
+  position: absolute;
+  top: 0;
+  left: 150px;
+  font-size: 15px;
+  color: gray;
+  line-height: 45px;
+  transition: 300ms all;
+}
+
+.mbushe input {
+  width: 100%;
+  line-height: 40px;
+  padding: 0 15px;
+  font-size: 15px;
+  color: black;
+  box-sizing: border-box;
+  border: 1px solid black;
+  border-radius: 10px;
+}
+
+.mbushe input:focus {
+  outline: 0;
+  border-color: blue;
+}
+
+.mbushe input:focus + label::before {
+  content: attr(data-title);
+  line-height: 20px;
+  font-size: 12px;
+  top: -10px;
+  background: #161616;
+  padding: 0 6px;
+  left: 165px;
+  color: white;
+}
+
+.mbushe input:focus + label-fjalkalimi::before {
+  content: attr(data-title);
+  line-height: 20px;
+  font-size: 12px;
+  top: -10px;
+  background: #161616;
+  padding: 0 6px;
+  left: 165px;
+  color: black;
+}
+
+.mbushe input:valid + label::before {
+  content: attr(data-title);
+  line-height: 20px;
+  font-size: 12px;
+  top: -10px;
+  background: #161616;
+  padding: 0 6px;
+}
+
+.blej input[type="submit"] {
+  background: none;
+  display: block;
+  margin: auto;
+  margin-bottom: 10px;
+  height: 40px;
+  width: 150px;
+  border: 2px solid black;
+  color: black;
+  outline: none;
+  border-radius: 20px;
+  transition: 0.25;
+  text-align: center;
+}
+
+.blej input[type="submit"]:hover {
+  background-color: gray;
+  color: white;
+  cursor: pointer;
+}
+
+/* Fundi */
+
+.foto-fundi {
+  background-image: url(Photos/fundi-mobile.jpg);
+  background-size: cover;
+  width: 100%;
+  height: 789px;
+}
+
+.kolona-fundi {
+  display: flex;
+}
+
+.mobileria-toka-fundi {
+  padding-top: 50px;
+  padding-left: 70px;
+  width: 300px;
+  color: white;
+}
+
+.mobileria-toka-fundi button {
+  padding: 7px;
+  border-radius: 20px;
+  background-color: gainsboro;
+  cursor: pointer;
+}
+
+.mobileria-toka-fundi img {
+  padding-right: 10px;
+  cursor: pointer;
+}
+
+.shpejt {
+  padding-top: 50px;
+  padding-left: 70px;
+  width: 350px;
+  text-align: center;
+}
+
+.shpejt input,
+button {
+  padding: 10px;
+  margin-top: 10px;
+  margin-left: 30px;
+  border-radius: 20px;
+  display: block;
+}
+
+.shpejt button {
+  cursor: pointer;
+  background-color: lightgray;
+  display: block;
+  text-align: center;
+}
+
+.te-rejat {
+  padding-top: 50px;
+  padding-left: 70px;
+  width: 300px;
+}
+
+.hapur {
+  padding-top: 50px;
+  padding-left: 70px;
+  width: 350px;
+}
+
+.vija {
+  border: 1px dashed white;
+  margin-top: 100px;
+  z-index: -1;
+}
+
+.teksti-vija {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 50px;
+}
+
+.numri {
+  background-color: gray;
+  border-radius: 50%;
+  width: 15px;
+  height: 15px;
+  margin-top: -10px;
+  margin-left: 200px;
+}
+
+.adresa {
+  background-color: gray;
+  border-radius: 50%;
+  width: 15px;
+  height: 15px;
+  margin-top: -10px;
+  margin-left: 200px;
+}
+
+.emaili {
+  background-color: gray;
+  border-radius: 50%;
+  width: 15px;
+  height: 15px;
+  margin-top: -10px;
+  margin-left: 200px;
+}
+
+.kolona-fundi-2 {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 50px;
+  margin-left: 180px;
+}
+
+.fundi-2 {
+  width: 100%;
+  height: 55px;
+  background-color: lightgray;
+  padding-top: 20px;
+  text-align: center;
+}
+
+.fundi-2 img {
+  float: right;
+}
+
+/* Responsive-Telefon/Tablet */
+
+@media screen and (max-width: 800px) {
+  header,
+  #ikonat-koka a,
+  .kontakti-koka,
+  ul li .butoni-koka,
+  nav,
+  .logo-ballina,
+  .ballina,
+  ol li a,
+  .butoni-ballina {
+    display: inline-block;
+    padding: 0;
+    margin: 0;
+    float: none;
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .permbajtja,
+  .mobileria-toka,
+  .atraktive {
+    width: 100%;
+    padding: 0;
+    float: none;
+    margin: 0;
+  }
+
+  .kolonat,
+  .kolona-permbajtja-1,
+  .kolona-permbajtja-2,
+  .kolona-permbajtja-3 {
+    display: block;
+    padding: 0;
+    margin: 0 0 30px;
+  }
+
+  .faqja-2,
+  button img,
+  .teksti-faqja-2 {
+    width: 100%;
+    display: block;
+    float: none;
+    padding: 0;
+    margin: 0;
+  }
+
+  .titulli-sherbimet,
+  .sherbimet,
+  .kuzhina img,
+  .teksti-kuzhina,
+  .dhoma-gjumi img,
+  .teksti-dhoma-gjumi,
+  .tavolin-buke img,
+  .teksti-tavolin-buke,
+  .komod img,
+  .teksti-komod,
+  .paradhom img,
+  .teksti-paradhom,
+  .pasqyr img,
+  .teksti-pasqyr,
+  .banjo img,
+  .teksti-banjo,
+  .divan img,
+  .teksti-divan,
+  .tavolin-kafe img,
+  .teksti-tavolin-kafe {
+    display: table-row;
+    padding: 0;
+    margin: 0 0 0 10px;
+  }
+
+  .titulli-puntoret,
+  .puntoret,
+  .zeneli,
+  .teksti-zeneli button,
+  .avdiu,
+  .teksti-avdiu button,
+  .hasani,
+  .teksti-hasani button {
+    float: none;
+    display: block;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    padding: 0;
+  }
+
+  .tejdukshmeria,
+  .kolona-tejdukshmeria {
+    width: 100%;
+    height: auto;
+    display: inline-block;
+    padding: 0;
+    margin: 0;
+  }
+
+  .titulli-mobilet,
+  .mobilet,
+  .kuzhina-1,
+  .foto-kuzhina-1 img,
+  .teksti-kuzhina-1,
+  .dhoma-gjumi-1,
+  .foto-dhoma-gjumi-1 img,
+  .teksti-dhoma-gjumi-1,
+  .tavolin-buke-1,
+  .foto-tavolin-buke-1 img,
+  .teksti-tavolin-buke-1,
+  .mobilet,
+  .komod-1,
+  .foto-komod-1 img,
+  .teksti-komod-1,
+  .banjo-1,
+  .foto-banjo-1 img,
+  .teksti-banjo-1,
+  .divan-1,
+  .foto-divan-1 img,
+  .teksti-divan-1 {
+    float: none;
+    height: auto;
+    display: block;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+  }
+
+  .titulli-zbritjet,
+  .zbritje,
+  .sallon,
+  .foto-sallon img .teksti-sallon img button,
+  .ballkon,
+  .foto-ballkon img .teksti-ballkon img button,
+  .dhoma,
+  .foto-dhoma img .teksti-dhoma img button {
+    width: 100%;
+    padding: 0;
+    margin: 0 0 50px;
+    display: block;
+  }
+
+  .titulli-video,
+  .foto-video,
+  .video,
+  video .teksti-video {
+    width: 100%;
+    height: auto;
+    padding: 0;
+    margin: 0;
+    display: block;
+  }
+
+  .foto-forma-aplikuse,
+  form,
+  .forma-aplikuse,
+  .blej,
+  .mbushe .regjistrohu {
+    margin-left: ;
+    padding: 0;
+    width: 100%;
+    float: none;
+  }
+
+  .foto-fundi img,
+  .kolona-fundi,
+  .mobileria-toka-fundi button,
+  .shpejt button,
+  .te-rejat,
+  .hapur img {
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    float: none;
+    display: block;
+  }
+
+  .foto-fundi,
+  .vija,
+  .teksti-vija,
+  .numri .adresa .emaili,
+  .kolona-fundi-2 {
+    width: 100%;
+    height: auto;
+    padding: 0;
+    margin: 0;
+    float: none;
+    display: block;
+  }
+
+  .fundi-2 {
+    width: 100%;
+    float: none;
+  }
+}
